@@ -1,0 +1,40 @@
+.radiobox{
+    margin-right: 2%;
+}
+
+fieldset{
+    border: 2px solid;
+    margin-bottom: 2%;
+    padding: 3%;
+}
+
+legend{
+    width: auto;
+    margin-left: 5%;
+}
+
+#mark input{
+    display: inline-block;
+    width: 46%;
+}
+
+#mark p{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+input{
+    margin-bottom: 2%;
+}
+
+select{
+    margin-bottom: 2%;
+    height: auto!important;
+}
+
+.btn-list button{
+    width: 100px;
+    height: auto;
+}
