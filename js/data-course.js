@@ -98,10 +98,12 @@ const getCourseDetail = function() {
       const name = result.course[0].name;
       const title = result.course[0].name;
       const des = result.course[0].description;
+      const desDetails = result.course[0].descriptionDetails;
       const imageUrl = result.course[0].imageUrl;
       document.getElementById("entry-title").innerHTML = name;
       document.getElementsByTagName("title")[0].innerHTML = title;
       document.getElementById("description-course").innerHTML = des;
+      document.getElementById("detail-course").innerHTML = desDetails;
       document.getElementById(
         "imageUrl"
       ).innerHTML = `<img src="${imageUrl}" alt="" />`;
