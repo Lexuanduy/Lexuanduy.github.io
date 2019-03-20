@@ -46,7 +46,7 @@ const getCourse = function() {
 
                 <div class="course-date">${convertDateTime(
                   result[i].createdAt
-                )}</div><button class="btn btn-success btn-submit-course" id="${result[i].courseId}">Choose this course</button>
+                )}</div><button class="btn btn-success btn-submit-course" style="margin-left: 10px" id="${result[i].courseId}">Choose this course</button>
 
                 
               </div>
